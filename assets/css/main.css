@@ -2795,6 +2795,8 @@ input, select, textarea {
 		#header img {
 			position: relative; /* Places it on top of the header */
     		z-index: 10; /* Higher than the header line */
+			width: 200px;  /* Adjust size */
+    		height: auto;  /* Keeps proportions */
 		}
 
 /* Footer */
